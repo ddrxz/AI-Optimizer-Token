@@ -17,7 +17,7 @@ A production-ready, self-hosted AI Gateway designed to optimize LLM interactions
 graph TD
     Client[IDE / App] -->|OpenAI Format| Gateway(AI Gateway)
     
-    subgraph Core Logic
+    subgraph CoreLogic
         Gateway -->|1. Token Count| Counter(TokenCounter)
         Gateway -->|2. Optimize| Optimizer(PromptOptimizer)
         Gateway -->|3. Check Cache| Cache{Semantic Cache}
@@ -27,9 +27,9 @@ graph TD
     end
     
     subgraph Providers
-        Router -->|"Complexity &lt; 5"| Gemini[Gemini 1.5 Flash (Free)]
-        Router -->|"Complexity &gt; 5"| OpenAI[GPT-4o / Claude]
-        Router -->|Fallback| Groq[Groq Llama 3]
+        Router -->|"Complexity &lt; 5"| Gemini["Gemini 1.5 Flash (Free)"]
+        Router -->|"Complexity &gt; 5"| OpenAI["GPT-4o / Claude"]
+        Router -->|Fallback| Groq["Groq Llama 3"]
     end
     
     Gemini --> Result
