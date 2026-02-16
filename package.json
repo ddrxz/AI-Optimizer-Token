@@ -1,0 +1,26 @@
+{
+  "name": "ai-optimizer-token",
+  "version": "1.0.0",
+  "description": "Personal AI Gateway for token optimization and semantic caching",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev -w packages/backend",
+    "dev:dashboard": "npm run dev -w packages/dashboard",
+    "dev:frontend": "npm run dev -w packages/dashboard",
+    "build": "npm run build --workspaces",
+    "test": "npm test --workspaces"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "@xenova/transformers": "^2.17.2",
+    "uuid": "^13.0.0"
+  }
+}
