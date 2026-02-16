@@ -7,7 +7,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)
 [![OpenAI Compatible](https://img.shields.io/badge/API-OpenAI%20Compatible-green.svg)](https://platform.openai.com/docs/api-reference)
 
-A production-ready, self-hosted AI Gateway designed to optimize LLM interactions, reduce latency, and cut API costs by up to **80%**. It acts as a drop-in replacement for OpenAI in any application or IDE (VS Code, Cursor, JetBrains), leveraging local semantic caching, intelligent prompt compression, and multi-provider routing (Gemini free tier + OpenAI fallback).
+A production-ready, self-hosted AI Gateway designed to optimize LLM interactions, reduce latency, and cut API costs by up to **40%**. It acts as a drop-in replacement for OpenAI in any application or IDE (VS Code, Cursor, JetBrains), leveraging local semantic caching, intelligent prompt compression, and multi-provider routing (Gemini free tier + OpenAI fallback).
 
 ---
 
