@@ -168,9 +168,7 @@ Returns real-time metrics for the dashboard.
 ---
 
 ## 📄 License
-MIT © [Gaston]
+MIT © <p>Developed with ❤️ by <a href="https://gfdev.vercel.app/" target="_blank">GFDev</a></p>
 
 ---
-<div align="center">
-  <p>Developed with ❤️ by <a href="https://gfdev.vercel.app/" target="_blank">GFDev</a></p>
-</div>
+
