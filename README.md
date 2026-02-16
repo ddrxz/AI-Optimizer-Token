@@ -1,5 +1,5 @@
 # AI Optimizer Token 🚀  
-**High-Performance AI Gateway | Semantic Cache | Intelligent Routing | 80% Cost Reduction**
+**High-Performance AI Gateway | Semantic Cache | Intelligent Routing | 40% Cost Reduction**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
@@ -22,13 +22,13 @@ graph TD
         Gateway -->|2. Optimize| Optimizer(PromptOptimizer)
         Gateway -->|3. Check Cache| Cache{Semantic Cache}
         
-        Cache -->|Hit (Prob > 0.85)| ReturnCached[Return Cached Response]
-        Cache -->|Miss| Router{ routingEngine }
+        Cache -->|"Hit (Prob &gt; 0.85)"| ReturnCached[Return Cached Response]
+        Cache -->|Miss| Router{Routing Engine}
     end
     
     subgraph Providers
-        Router -->|Complexity < 5| Gemini[Gemini 1.5 Flash (Free)]
-        Router -->|Complexity > 5| OpenAI[GPT-4o / Claude]
+        Router -->|"Complexity &lt; 5"| Gemini[Gemini 1.5 Flash (Free)]
+        Router -->|"Complexity &gt; 5"| OpenAI[GPT-4o / Claude]
         Router -->|Fallback| Groq[Groq Llama 3]
     end
     
